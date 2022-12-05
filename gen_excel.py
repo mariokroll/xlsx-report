@@ -142,5 +142,5 @@ def create_xlsx_file(sizes):
 if __name__ == '__main__':
     prediction, pizzas2, pizzas = extract()
     df, sold_pizzas, sizes = transform(pizzas2, pizzas)
-    # create_images(df, prediction)
+    create_images(df, prediction)
     create_xlsx_file(sizes)
